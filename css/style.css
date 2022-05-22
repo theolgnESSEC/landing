@@ -1,0 +1,40 @@
+/* Importing component files */
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/container.css");
+
+/* General style rules for fonts and colors */
+* {
+    font-family: 'Lora', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #6772e5;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #6772e5;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: #6772e5;
+}

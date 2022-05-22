@@ -1,0 +1,33 @@
+.container {
+    width: 900px;
+    margin: 80px auto;
+}
+
+.list-inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/** Responsive */
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 350px;
+    }
+}
